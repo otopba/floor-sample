@@ -1,0 +1,23 @@
+name: dbsample
+description: A new Flutter project.
+
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  floor: ^0.17.0
+  cupertino_icons: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^0.17.0
+  build_runner: ^1.10.6
+flutter:
+  uses-material-design: true
